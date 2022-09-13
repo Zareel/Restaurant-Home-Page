@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Gruppo&family=Montserrat:wght@400;900&family=Orbitron:wght@400;600&family=Oswald:wght@200;700&family=Quantico:wght@400;700&family=Red+Rose:wght@300;700&display=swap'); */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Red Rose", cursive;
+}
+ body{
+  background-image: url(./assets/background-image.png);
+  background-color: #1e1d1dcc;
+  background-size: cover;
+  background-blend-mode: darken;
+  overflow-y:hidden; 
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar{
+  height: 20%;
+}
+
+.logo{
+  width: 120px;
+  display: inline-block;
+  margin: 20px 0 0 60px;
+
+}
+.list{
+  list-style-type: none;
+  text-align: center;
+  margin-top: -30px;
+}
+.list-item{
+  display: inline;
+  padding: 20px;
+  font-family: "Red Rose";
+  color: #d8b00e;
+} 
+.button-small{
+  float: right;
+  height: 45px;
+  width: 120px;
+  padding: 5px;
+  background-color:#EB4D4B;
+  color: #fff;
+  font-family: "Red Rose";
+  font-size: 18px;
+  border: none;
+  margin-right: 80px;
+  margin-top: -45px;
+  cursor: pointer; 
+  transition: 0.25s;
+}
+.button-small:hover{
+  background-color: transparent;
+  border: 2px solid #EB4D4B;
+}
+/* ---------------------------------------------End of Nav-bar----------------------------------- */
+.hero h1{
+  font-size:95px;
+  width: 900px;
+  color: #d8b00e;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Red Rose';
+  line-height: 90px;
+  margin-left: 20%;
+  margin-top: 100px;
+}
+.button-large{
+  background-color:#ee3936;
+  color: #fff;
+  width: 250px;
+  height: 65px;
+  cursor: pointer;
+  border:none;
+  font-size: 23px;
+  font-family: "Red Rose";
+  margin-left: 41%;
+  transition: 0.25s;
+}
+.button-large:hover{
+  background-color: transparent;
+  border: 2px solid #ee3936;
+}
+.bottom{
+  position: absolute;
+  right:60px;
+  bottom: 60px;
+}
+/* -----------------------------------------End of Hero section--------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+  cursor: pointer;
+}
+
+nav ul{
+  list-style-type: none;
+  
+}
+nav ul li{
+  display: inline-block;
+  padding: 0px 20px;
+  color: #E8BD0D;
+  
+}
+.button-small{
+  background-color:#EB4D4B;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 400;
+  padding: 9px 25px;
+  margin-right: 100px;
+  border: none;
+
+}
+.logo{
+  margin-top: 30px;
+  margin-left: 50px;
+} */
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+/* h1{
+  text-align: center;
+  width: 1100px;
+  color: #E8BD0D;
+  font-size: 110px;
+  font-size: 6em;
+  font-weight: 900;
+  margin-top: 3pt;
+  margin-bottom: 10pt;
+  margin-left: 10%;
+  margin-right: 200px;
+  line-height: 1em;    
+  font-family: sans-serif;
+} 
+.button-large{
+  margin: auto;
+  display: block;
+  background-color: #EB4D4B;
+  color: #fff;
+  font-weight: 600;
+  font-size:1.5rem ;
+  padding: 0.7em 2.1em;
+  border: none;
+  margin-top: 25pt;
+
+}
+.bottom{
+  float:right;
+  margin-right: 70px;
+
+}
+
+.bottom{
+    position: relative;
+    bottom: 50pt;
+    right: -2em;
+} */
